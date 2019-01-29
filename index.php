@@ -1,3 +1,6 @@
+<?php 
+include ("header.php");
+?>
 <!DOCTYPE html>
 <html>
 <h1>StMU Marketplace</h1>
