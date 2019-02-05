@@ -1,7 +1,7 @@
 <?php 
 include ("header.php");
 
-header( 'Location: /main.php' ) ;
+header( 'Location: https://hmartinez20.github.io/STMUmarket//main.php' ) ;
 ?>
 <!DOCTYPE html>
 <html>
