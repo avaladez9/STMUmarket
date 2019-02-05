@@ -3,7 +3,12 @@ include ("header.php");
 ?>
 <!DOCTYPE html>
 <html>
-
-<button type="button" class="btn btn-info" onload="window.location.assign("/main.php");">Enter Site</button>
+  <body onload="openSite();"></body>
+  <button type="button" class="btn btn-info" onload="window.location.assign("/main.php");">Enter Site</button>
 
 </html>
+<script>
+  function openSite() {
+    window.location.assign("/main.php")
+  }
+</script>
