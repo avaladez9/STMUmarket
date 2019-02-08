@@ -12,13 +12,10 @@ title: StMU Marketplace
     <br>
     <div class="row">
       <div class="col-3">
-        <div class="btn-group btn-group-vertical btn-group-toggle" data-toggle="buttons" id="searchBtns">
-            <label class="btn btn-dark"><input type="radio" name="options" id="books" onclick="genListings('books');"> Books </label>
-            <label class="btn btn-dark"><input type="radio" name="options" id="clothing" onclick="genListings('clothing');"> Clothing </label>
-            <label class="btn btn-dark"><input type="radio" name="options" id="furniture" onclick="genListings('furniture');"> Furniture </label>
-          <!--<button class="btn btn-dark" id="booksBtn" onclick="genListings('books');">Books</button>
+        <div class="btn-group btn-group-vertical btn-group-toggle" id="searchBtns">
+          <button class="btn btn-dark" id="booksBtn" onclick="genListings('books');">Books</button>
           <button class="btn btn-dark" id="clothingBtn" onclick="genListings('clothing');">Clothing</button>
-          <button class="btn btn-dark" id="furnitureBtn" onclick="genListings('furniture');">Furniture</button>-->
+          <button class="btn btn-dark" id="furnitureBtn" onclick="genListings('furniture');">Furniture</button>
         </div>
       </div>
       <div class="col-9" id="listings">
