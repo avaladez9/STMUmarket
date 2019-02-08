@@ -32,7 +32,13 @@ title: StMU Marketplace
 <script id="genListings" src="search.js" data-search="generic"></script>
 <script>
   function genListings(search){
-    $('#searchBtns').children().toggleClass('active');
-    
+    var searchBtns = $('#searchBtns').childNodes();
+    for(var i = 0; i < searchBtns.length; i++)
+    {
+      if($("'"+searchBtns[i]+"'").hasAttribute('active') && searchBtns[i] != search)
+      {
+        searchBtns[i].toggleClass('active', false);
+      }
+    }
   }
 </script>
