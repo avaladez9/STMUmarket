@@ -12,7 +12,7 @@ title: StMU Marketplace
     <br>
     <div class="row">
       <div class="col-3">
-        <div class="btn-group-vertical">
+        <div class="btn-group-vertical" id="searchBtns">
           <button class="btn btn-dark" id="booksBtn" onclick="genListings('books');">Books</button>
           <button class="btn btn-dark" id="clothingBtn" onclick="genListings('clothing');">Clothing</button>
           <button class="btn btn-dark" id="furnitureBtn" onclick="genListings('furniture');">Furniture</button>
@@ -32,8 +32,7 @@ title: StMU Marketplace
 <script id="genListings" src="search.js" data-search="generic"></script>
 <script>
   function genListings(search){
-    console.log("New search terms...");
-    console.log(search);
-    $('#'+search+'Btn').toggleClass('active');
+    $('#searchBtns').children().toggleClass('active');
+    
   }
 </script>
