@@ -18,9 +18,9 @@ title: StMU Marketplace
           <button class="btn btn-dark">Search By...</button>
         </div>
       </div>
-      <div class="col-9">
+      <div class="col-9" id="listings" onload="generateListings();">
         <div class="card col" style="width: 18rem;" href="#">
-          <img src="" class="card-img-top" style="background-color: grey;" alt="">
+          <img class="card-img-top" style="background-color: grey;" alt="">
           <div class="card-body">
             <p class="card-text">Item title goes here</p>
           </div>
@@ -29,3 +29,14 @@ title: StMU Marketplace
     </div>
   </body>
 </html>
+<script type="text/javascript">
+  var maxPerRow = 4;
+  function generateListings(){
+    for(var i = 0; i < 3; i++){
+      console.log("row"+i);
+      for(var j=0; j < maxPerRow; j++){
+        console.log("column"+j);
+      }
+    }
+  }
+</script>
