@@ -16,7 +16,72 @@ title: Seller Information
 		<h1> Seller Name </h1>
 		<h2> Ratings </h2>
 		
-		<h2> Seller's Listings </h2>
+		<h2> Seller's Listings: </h2>
+		
+		<div class="row">
+      <div class="col-3">
+        <div class="btn-group btn-group-vertical btn-group-toggle col" id="searchBtns">
+          <button class="btn btn-dark" id="booksBtn" onclick="genListings('books');">Books</button>
+          <button class="btn btn-dark" id="clothingBtn" onclick="genListings('clothing');">Clothing</button>
+          <button class="btn btn-dark" id="furnitureBtn" onclick="genListings('furniture');">Furniture</button>
+        </div>
+      </div>
+      <div class="col-9" id="listings">
+        <div class="row">
+          <div class="card col-3" href="#">
+            <img src="{{site.baseurl}}/Empty.jpg" class="card-img-top mt-3" style="background-color: grey;" alt="">
+            <div class="card-body"><h6 class="card-title">Title</h6><p class="card-text">Description</p></div>
+          </div>
+          <div class="card col-3" href="#">
+            <img src="{{site.baseurl}}/Empty.jpg" class="card-img-top mt-3" style="background-color: grey;" alt="">
+            <div class="card-body"><h6 class="card-title">Title</h6><p class="card-text">Description</p></div>
+          </div>
+          <div class="card col-3" href="#">
+            <img src="{{site.baseurl}}/Empty.jpg" class="card-img-top mt-3" style="background-color: grey;" alt="">
+            <div class="card-body"><h6 class="card-title">Title</h6><p class="card-text">Description</p></div>
+          </div>
+          <div class="card col-3" href="#">
+            <img src="{{site.baseurl}}/Empty.jpg" class="card-img-top mt-3" style="background-color: grey;" alt="">
+            <div class="card-body"><h6 class="card-title">Title</h6><p class="card-text">Description</p></div>
+          </div>
+        </div> <!-- End 1st row-->
+        <div class="row">
+          <div class="card col-3" href="#">
+            <img src="{{site.baseurl}}/Empty.jpg" class="card-img-top mt-3" style="background-color: grey;" alt="">
+            <div class="card-body"><h6 class="card-title">Title</h6><p class="card-text">Description</p></div>
+          </div>
+          <div class="card col-3" href="#">
+            <img src="{{site.baseurl}}/Empty.jpg" class="card-img-top mt-3" style="background-color: grey;" alt="">
+            <div class="card-body"><h6 class="card-title">Title</h6><p class="card-text">Description</p></div>
+          </div>
+          <div class="card col-3" href="#">
+            <img src="{{site.baseurl}}/Empty.jpg" class="card-img-top mt-3" style="background-color: grey;" alt="">
+            <div class="card-body"><h6 class="card-title">Title</h6><p class="card-text">Description</p></div>
+          </div>
+          <div class="card col-3" href="#">
+            <img src="{{site.baseurl}}/Empty.jpg" class="card-img-top mt-3" style="background-color: grey;" alt="">
+            <div class="card-body"><h6 class="card-title">Title</h6><p class="card-text">Description</p></div>
+          </div>
+        </div> <!-- End 2nd row-->
+        <div class="row">
+          <div class="card col-3" href="#">
+            <img src="{{site.baseurl}}/Empty.jpg" class="card-img-top mt-3" style="background-color: grey;" alt="">
+            <div class="card-body"><h6 class="card-title">Title</h6><p class="card-text">Description</p></div>
+          </div>
+          <div class="card col-3" href="#">
+            <img src="{{site.baseurl}}/Empty.jpg" class="card-img-top mt-3" style="background-color: grey;" alt="">
+            <div class="card-body"><h6 class="card-title">Title</h6><p class="card-text">Description</p></div>
+          </div>
+          <div class="card col-3" href="#">
+            <img src="{{site.baseurl}}/Empty.jpg" class="card-img-top mt-3" style="background-color: grey;" alt="">
+            <div class="card-body"><h6 class="card-title">Title</h6><p class="card-text">Description</p></div>
+          </div>
+          <div class="card col-3" href="#">
+            <img src="{{site.baseurl}}/Empty.jpg" class="card-img-top mt-3" style="background-color: grey;" alt="">
+            <div class="card-body"><h6 class="card-title">Title</h6><p class="card-text">Description</p></div>
+          </div>
+        </div> <!-- End 3rd row-->
+      </div> <!-- End listings section-->
 	</body>
 
 
